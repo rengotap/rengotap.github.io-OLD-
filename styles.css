@@ -1,10 +1,10 @@
 body {
-    background:rgba(48, 201, 150, 0.795);
+    background: #046173;
 }
 .assignment {
     display: flex;
     padding: 10px;
-    background: teal;
+    background: #02A3A6;
     margin:10px;
 }
 .assignment img {
@@ -18,5 +18,8 @@ h2 {
     color:whitesmoke;
 }
 p {
-    color:whitesmoke;
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
 }

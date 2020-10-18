@@ -3,18 +3,23 @@ body {
 }
 .assignment {
     display: flex;
-    padding: 10px;
+    padding: 20px;
     background: #02A3A6;
-    margin:10px;
+    margin:30px;
+    border-radius: 25px;
+    box-shadow: 15px 10px  whitesmoke;
 }
 .assignment img {
     width:300px;
-    padding:15px;
+    padding:10px;
+    border-radius: 20px;
+    box-shadow: 15px 10px  #046173;
+}
+.assignment-details {
+    display: flex;
+    padding:40px;
 }
 h1 {
-    color:whitesmoke;
-}
-h2 {
     color:whitesmoke;
 }
 p {
@@ -22,4 +27,8 @@ p {
 }
 a {
     text-decoration: none;
+    color:whitesmoke;
+}
+.assignment h2:hover {
+    color: skyblue ;
 }

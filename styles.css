@@ -1,8 +1,12 @@
 body {
     background: #046173;
 }
-.assignment {
+.assignments {
     display: flex;
+    flex-wrap: wrap;
+}
+.assignment {
+    width: 25%;
     padding: 20px;
     background: #02A3A6;
     margin:30px;
@@ -10,13 +14,14 @@ body {
     box-shadow: 15px 10px  whitesmoke;
 }
 .assignment img {
-    width:300px;
+    width:250px;
     padding:10px;
     border-radius: 20px;
     box-shadow: 15px 10px  #046173;
+    display: block;
+    margin:auto;
 }
 .assignment-details {
-    display: flex;
     padding:40px;
 }
 h1 {
